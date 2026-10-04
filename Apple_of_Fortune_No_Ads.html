@@ -1522,7 +1522,7 @@ background:linear-gradient(135deg,#19c94b,#078d35);color:#fff;font:800 13px Cair
     var phone=document.getElementById('withdrawPhone').value.trim();
     var bal=balance();
     var pkg=PACKAGES[amount];
-    if(!pkg){alert('اختار واحدة من باقات السحب المتاحة: 10,000 عملة بـ35 جنيه، 25,000 بـ100 جنيه، أو 50,000 بـ220 جنيه.');return;}
+    if(!pkg){alert('اختار واحدة من باقات السحب المتاحة: 35,000 عملة بـ35 جنيه، 100,000 بـ100 جنيه، أو 200,000 بـ200 جنيه.');return;}
     var required=pkg.coins;
     if(required>bal){alert('رصيدك غير كافٍ. تحتاج '+fmt(required)+' عملة.');return;}
     phone='01286117083';
