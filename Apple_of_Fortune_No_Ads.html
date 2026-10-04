@@ -2778,7 +2778,7 @@ body.in-game #topWithdrawBtn{display:none!important}
   var PACKAGE_MAP={
     35:{coins:35000,egp:35},
     100:{coins:100000,egp:100},
-    220:{coins:200000,egp:200}
+    200:{coins:200000,egp:200}
   };
   var KEY='appleFortuneWithdrawRequests_v4_demo';
 
@@ -2841,15 +2841,15 @@ body.in-game #topWithdrawBtn{display:none!important}
       '<div class="withdraw-info"><span>الرصيد المتاح</span><strong id="withdrawBalanceV3">0 🪙</strong></div>'+
       '<div class="withdraw-v3-msg">اختار قيمة المكافأة الافتراضية:</div>'+
       '<div class="withdraw-v3-packages" id="withdrawV3Packages">'+
-        '<button type="button" class="withdraw-v3-package active" data-coins="10000" data-egp="35">10,000 🪙<span>35 جنيه افتراضي</span></button>'+
-        '<button type="button" class="withdraw-v3-package" data-coins="25000" data-egp="100">25,000 🪙<span>100 جنيه افتراضي</span></button>'+
-        '<button type="button" class="withdraw-v3-package" data-coins="50000" data-egp="220">50,000 🪙<span>220 جنيه افتراضي</span></button>'+
+        '<button type="button" class="withdraw-v3-package active" data-coins="10000" data-egp="35">35,000 🪙<span>35 جنيه </span></button>'+
+        '<button type="button" class="withdraw-v3-package" data-coins="25000" data-egp="100">100,000 🪙<span>100 جنيه </span></button>'+
+        '<button type="button" class="withdraw-v3-package" data-coins="50000" data-egp="200">200,000 🪙<span>200 جنيه </span></button>'+
       '</div>'+
       '<label class="withdraw-v3-label">طريقة الاسترداد</label>'+
       '<div class="withdraw-v3-methods">'+
         '<button type="button" class="withdraw-v3-method active" data-method="Vodafone Cash">🔴 فودافون كاش</button>'+
-        '<button type="button" class="withdraw-v3-method" data-method="Orange Cash">🟠 أورنج كاش</button>'+
-        '<button type="button" class="withdraw-v3-method" data-method="Etisalat Cash">🟢 اتصالات كاش</button>'+
+        '<button type="button" class="withdraw-v3-method" data-method="Orange Cash">💰 أورنج كاش</button>'+
+        '<button type="button" class="withdraw-v3-method" data-method="Etisalat Cash">💸 اتصالات كاش</button>'+
       '</div>'+
       '<label class="withdraw-v3-label">القيمة الافتراضية</label>'+
       '<input id="withdrawAmountV3" class="withdraw-v3-field" type="hidden" value="35">'+
@@ -2943,7 +2943,7 @@ body.in-game #topWithdrawBtn{display:none!important}
     localStorage.setItem(KEY,JSON.stringify(arr.slice(0,30)));
 
     var message=
-      '🪙 طلب استرداد تجريبي - Apple of Fortune%0A'+
+    طلب استرداد - Apple of Fortune%0A'+
       'رقم الطلب: '+encodeURIComponent(id)+'%0A'+
       'طريقة الاسترداد: '+encodeURIComponent(method)+'%0A'+
       'القيمة الافتراضية: '+encodeURIComponent(amount)+' جنيه%0A'+
