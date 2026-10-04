@@ -27,7 +27,7 @@
 
   // نشغّل لما الصفحة تخلص
   function start(){
-    makeBadge('ads ON ✅');
+    makeBadge('✅');
     removePanel();
     setInterval(removePanel, 500);
 
